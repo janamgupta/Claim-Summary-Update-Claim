@@ -1,0 +1,68 @@
+.boxes{
+  background-color: #ffffff;
+  overflow: hidden;
+  max-height: fit-content;
+  -webkit-box-shadow: 0px 12px 18px -6px rgba(0,0,0,0.3);
+  box-shadow: 0px 12px 18px -6px rgba(0,0,0,0.3);
+  max-width: 50rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.boxes{
+  margin : 20px;
+}
+.grid{
+  min-height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  text-align: center;
+}
+
+.routeNav .nav-item .nav-link{
+  color: white;
+}
+.routeNav .nav-item .nav-link:hover{
+  color: black;
+  background-color: white;
+}
+.LoginHeader{
+  background-color: whitesmoke;
+  font-family: OpenSans;
+  text-align: center;
+}
+
+.footer-copyright{
+  color: white;
+}
+
+.logincard{
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+tbody{
+  text-align: center;
+}
+
+.next{
+  width: 7rem;
+}
+.cancel{
+  width: 7rem;
+}
+
+.error-msg{
+  color: red;
+}
+@font-face {
+  font-family: OpenSans;
+  src: url("../Fonts/OpenSans-Regular.ttf");
+ }
+ div{
+   font-family: OpenSans;
+ }
+ .user{
+   color: white;
+ }
+
